@@ -1,0 +1,13 @@
+
+moviedb:
+  apiKeyV3: 30a9c70f93bc9885831e01e0d7181f50
+  # Access Token
+  apiKeyV4: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMGE5YzcwZjkzYmM5ODg1ODMxZTAxZTBkNzE4MWY1MCIsInN1YiI6IjVlMGRiNGY0NmRjNmMwMDAxMzRjN2ZjYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Zo2c3sGIVsO_34dNq942z3eA2E3cYyDFbwa9spJottM
+  api:
+    requestTokenUrl: https://api.themoviedb.org/3/authentication/token/new?api_key={q}
+    sessionIdUrl: https://api.themoviedb.org/3/authentication/session/new?api_key={q}
+
+logging:
+  level:
+    edu.pasudo123.study.externalopenapi.*: debug
+
