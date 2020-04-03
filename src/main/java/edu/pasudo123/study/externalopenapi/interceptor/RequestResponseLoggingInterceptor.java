@@ -31,7 +31,7 @@ public class RequestResponseLoggingInterceptor implements ClientHttpRequestInter
             return;
         }
 
-        log.debug("Request Begin ===========================================");
+        log.debug("\n[Request] Begin ===========================================");
         log.debug("URI                       : {}", request.getURI());
         log.debug("METHOD                    : {}", request.getMethod());
         log.debug("HEADERS                   : {}", request.getHeaders());
@@ -45,7 +45,7 @@ public class RequestResponseLoggingInterceptor implements ClientHttpRequestInter
             return;
         }
 
-        log.debug("Response Begin ===========================================");
+        log.debug("\n[Response] Begin ===========================================");
         log.debug("Status Code          : {}", response.getStatusCode());
         log.debug("Status Text          : {}", response.getStatusText());
         log.debug("Headers              : {}", response.getHeaders());
